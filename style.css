@@ -150,10 +150,15 @@ line-height: 32px;
 .card-s{
     cursor: pointer;
     flex: 0 1 0%;
-    min-width: 179px;
-    max-width: 179px;
+    min-width: 180px;
+    max-width: 180px;
+   
 }
-
+.card-inner{
+    margin: auto; 
+    width: 97%;
+    overflow-x: scroll;
+}
 .inner-div{
     min-width: 100%;
     grid-column: span 6 / auto;
@@ -177,4 +182,80 @@ overflow: hidden;
     width: 100%;
     height: 36px;
     margin-bottom: 6px;
+}
+.my-footer{
+    width: 95%;
+    margin: auto;
+}
+.row-3{
+    text-align: justify;
+    color: #666666;
+    font-size: 15px;
+    padding:10px;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.row-2>p{
+    text-align: justify;
+    color: #666666;
+    font-size: 12px;
+    width: 35%;
+}
+
+.download-section>p{
+    color: #666666;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 16px;
+}
+.download-btns{
+    background-color: #213b50;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+}
+.social-btn{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-inline: 10px;
+}
+
+.social{
+    display: flex;
+}
+
+.row-1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.useful-links{
+    flex: 2;
+}
+
+.categories-links{
+    flex: 3;
+}
+table{
+    width: 100%;
+}
+td{
+    padding: 3px 10px;
+    color: #666666;
+    font-size: 14px;
 }

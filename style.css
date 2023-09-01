@@ -259,3 +259,33 @@ td{
     color: #666666;
     font-size: 14px;
 }
+
+
+@media screen and (max-width:768px){
+    .header-container,.row-2,.row-1{
+        flex-direction: column !important;
+    }
+    .vertical-line,.hero-section>img{
+        display: none !important;
+    }
+    .nav-btns,.row-2>p,.search-div{
+        width: 90%;
+    }
+    .row-1>div,.my-container{
+        margin-top: 20px;
+    }
+    .row-1>div>h2,.row-1>div>h4{
+        text-align: center;
+    }
+    td{
+        text-align: center;
+    }
+    .social{
+        margin-top: 10px;
+    }
+}
+
+.credit{
+    background-color: #213b50;
+    color: white;
+}
